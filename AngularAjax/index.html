@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Angular with Ajax</title>
+    <link rel="stylesheet" href="../ui-grid.css"></link>
+    <script src="../angular.js"></script>
+    <script src="../ui-grid.js"></script>
+    <script src="JSes/app.js"></script>
+    <script src="JSes/controller.js"></script>
+    <style>
+        .myGird {
+            width: 1000px;
+        }
+
+    </style>
+</head>
+
+<body ng-app="app" ng-controller="controller">
+    <h1>This is the data coming from a remote server. </h1>
+    <div id="grid" ui-grid="gridOptions"></div>
+</body>
+
+</html>
