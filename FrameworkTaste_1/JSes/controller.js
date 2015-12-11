@@ -1,3 +1,3 @@
 app.controller("Controller", function ($scope) {
-    $scope.msg = "I am not understanding the use of this!";
+    $scope.msg = "This message will be available to any child DOM element where the parent is attributed with this controller!";
 });
