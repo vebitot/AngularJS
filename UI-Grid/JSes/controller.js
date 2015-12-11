@@ -3,7 +3,7 @@ app.controller("controller", function ($scope) {
     $scope.newProjectBudget = "";
     $scope.newProjectOwner = "";
     $scope.data = [{
-            'Project': 'Sequent',
+            'Project': 'Ola',
             'Budget': '$1,000,000',
             'Owner': 'Mr.Jeff'
         },
